@@ -67,6 +67,7 @@ clear: both;
 
 .l-heading{
   font-size: 40px;
+  line-height: 1.2;
   /* large-heading */
 }
 
@@ -114,7 +115,7 @@ overflow: auto;
 color: white;
 }
 
-#navbar h1{
+#navbar .logo{
   float: left;
   padding: 20px;
 }
@@ -131,6 +132,7 @@ padding: 20px;
 
 #navbar ul li a{
   display: block;
+  /* padding: 20px; */
   text-align: center;
 }
 
@@ -164,7 +166,7 @@ height: 600px;
 
 /* Home-Info */
 #home-info{
-  height: 400px;
+  height: 450px;
 }
 
 #home-info .info-img{
@@ -182,6 +184,7 @@ height: 600px;
   text-align: center;
   padding: 50px 30px;
   overflow: hidden;
+  /* Hide it when shrinking too much */
 }
 
 #home-info .info-content p{
@@ -225,7 +228,7 @@ border-radius: 50%;
 
 /* Testimonials */
 #testimonials{
-  height: 600px;
+  height: 100%;
   background: url('../img/tb1.jpg') no-repeat center center/cover;
   padding: 100px;
 }
