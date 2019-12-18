@@ -127,12 +127,12 @@ color: white;
 
 #navbar ul li{
 float: left;
-padding: 20px;
 }
 
 #navbar ul li a{
   display: block;
   /* padding: 20px; */
+  padding: 20px;
   text-align: center;
 }
 
